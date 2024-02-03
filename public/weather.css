@@ -1,0 +1,32 @@
+body {
+  background-image: -webkit-linear-gradient(65deg, #2c3333 50%, #395b64 50%);
+  min-height: 1000px;
+  color: #000000;
+  text-align: center;
+}
+
+/* body {
+  background-color: none;
+} */
+
+.box {
+  max-width: 800px;
+  margin: 50px auto;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
+}
+p {
+  display: flex;
+  align-items: center;
+  margin-left: 25px;
+}
+.weather-description {
+  font-size: 3.2rem;
+  color: #2c3333;
+}
+
+.weather-temperature {
+  font-size: 2rem;
+  color: #2c3333;
+}
